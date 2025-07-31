@@ -1,0 +1,235 @@
+.thumbnail {
+    width: 100%;
+}
+.search{
+    font-size: 12px;
+    padding-left: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 3px;
+    border-width: 1.5px;
+    border-color: gray;
+    border-style: solid; 
+    display: block;   
+}
+.para1{
+   
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: roboto,arial;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.para2{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 0px;
+    padding: 0px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+    margin-bottom: 7px;
+    width: 100%;
+}
+.para3{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 0px;
+    padding: 0px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.channel-picture{
+    display : inline-block;
+    vertical-align: top;
+}
+.video-info{
+    display: inline-block;
+    width: 200px;
+    margin-top: 7px;
+    line-height: 16px;
+}
+.channel-image{
+    border-radius: 50px;
+    width: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.grid-for-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    z-index: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    padding-right: 20px;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 221, 221);
+    z-index: 100;
+}
+.left-section{
+    width: 200px;
+    margin-left: 0;
+}
+.right-section{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    flex-shrink: 0;
+    padding: 20px;
+    margin-right: 15px;
+
+}
+.middel-section{
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 0;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.hamberger{
+    height: 30px;
+    padding-left: 24px;
+    padding-top: 23px;
+}
+.youtube-logo{
+    height: 25px;
+    padding-left: 25px;
+    padding-bottom: 4px;
+    width: 100px;
+}
+.search-button{
+    height: 43px;
+    width: 60px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+.search-bar{
+    flex: 1;
+    height: 39px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    font-size: 16px;
+    border-radius: 1px;
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.07);
+    width: 0;
+}
+.sidebar-link:hover{
+    background-color: lightgray;
+}
+.search-bar::placeholder{
+    font-family: arial;
+    font-size: 16px;
+}
+.search-icon{
+    height: 20px;
+    margin-top: 4px;
+}
+.speaking-button{
+    height: 22px;
+    margin-top: 3px;
+}
+.uplod,
+.apps,
+.noti{
+    height: 32px;
+    position: relative;
+}
+.profile{
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+}
+.home,
+.explore,
+.sub,
+.original,
+.music,
+.library{
+    height: 30px;
+    margin: 25px;
+    padding: 0px;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 46px;
+    background-color: white;
+    width: 79px;
+    z-index: 300;
+}
+.sidebar-link{
+    height: 76px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: arial;
+    font-size: 3px;
+    position: relative;
+    top: 23px;
+}
+.duration{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 7px;
+    bottom: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 4px 5px;
+}
+.first-thumbnail{
+    position: relative;
+}
+.noti-count{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 6px;
+    height: 9px;
+    width: 10px;
+    border-radius: 50%;
+    right: 103px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    bottom: 22px;
+    top: 13px
+}
