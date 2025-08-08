@@ -22,4 +22,4 @@ I built this project to strengthen my HTML and CSS knowledge. I’m currently le
 2.Building a fully functional frontend
 3.Eventually connecting it to a backend to make it a full-stack application
  
-                                Thanks for checking out my project! Feel free to give it A if you find it useful or inspiring.
+                         Thanks for checking out my project! Feel free to give it A if you find it useful or inspiring.
